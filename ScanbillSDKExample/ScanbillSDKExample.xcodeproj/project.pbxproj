@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F394E4CADA7BC59966115A /* Pods_ScanbillSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8432D78C4772731BE696C2E /* Pods_ScanbillSDKExample.framework */; };
+		8D60781FB29550C56BA6B0AF /* Pods_ScanbillSDKExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A1124C1893C62184CCC94A /* Pods_ScanbillSDKExampleUITests.framework */; };
+		BE115A7804576536D16B1298 /* Pods_ScanbillSDKExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E86DBC5A84B5A3E4CE6E668 /* Pods_ScanbillSDKExampleTests.framework */; };
+		EB554A57212DA0D3006186A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB554A56212DA0D3006186A8 /* AppDelegate.swift */; };
+		EB554A59212DA0D3006186A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB554A58212DA0D3006186A8 /* ViewController.swift */; };
+		EB554A5C212DA0D3006186A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB554A5A212DA0D3006186A8 /* Main.storyboard */; };
+		EB554A5E212DA0D4006186A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB554A5D212DA0D4006186A8 /* Assets.xcassets */; };
+		EB554A61212DA0D4006186A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB554A5F212DA0D4006186A8 /* LaunchScreen.storyboard */; };
+		EB554A6C212DA0D4006186A8 /* ScanbillSDKExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB554A6B212DA0D4006186A8 /* ScanbillSDKExampleTests.swift */; };
+		EB554A77212DA0D4006186A8 /* ScanbillSDKExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB554A76212DA0D4006186A8 /* ScanbillSDKExampleUITests.swift */; };
+		EB554A86212DA608006186A8 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = EB554A84212DA41A006186A8 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB554A68212DA0D4006186A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB554A4B212DA0D3006186A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB554A52212DA0D3006186A8;
+			remoteInfo = ScanbillSDKExample;
+		};
+		EB554A73212DA0D4006186A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB554A4B212DA0D3006186A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB554A52212DA0D3006186A8;
+			remoteInfo = ScanbillSDKExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5562536A283A8BEAD38C2E /* Pods-ScanbillSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExample.release.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExample/Pods-ScanbillSDKExample.release.xcconfig"; sourceTree = "<group>"; };
+		1E86DBC5A84B5A3E4CE6E668 /* Pods_ScanbillSDKExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanbillSDKExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273A03377D5973CC53918BA6 /* Pods-ScanbillSDKExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExampleUITests/Pods-ScanbillSDKExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		828CC11D610EBD23E8B6F98E /* Pods-ScanbillSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExample.debug.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExample/Pods-ScanbillSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		99316F1691465591E7F6D9CC /* Pods-ScanbillSDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExampleTests/Pods-ScanbillSDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B494FA77C6A20A8953C4A1 /* Pods-ScanbillSDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExampleTests/Pods-ScanbillSDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8432D78C4772731BE696C2E /* Pods_ScanbillSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanbillSDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB554A53212DA0D3006186A8 /* ScanbillSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanbillSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB554A56212DA0D3006186A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB554A58212DA0D3006186A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB554A5B212DA0D3006186A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB554A5D212DA0D4006186A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB554A60212DA0D4006186A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB554A62212DA0D4006186A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB554A67212DA0D4006186A8 /* ScanbillSDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanbillSDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB554A6B212DA0D4006186A8 /* ScanbillSDKExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbillSDKExampleTests.swift; sourceTree = "<group>"; };
+		EB554A6D212DA0D4006186A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB554A72212DA0D4006186A8 /* ScanbillSDKExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanbillSDKExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB554A76212DA0D4006186A8 /* ScanbillSDKExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbillSDKExampleUITests.swift; sourceTree = "<group>"; };
+		EB554A78212DA0D4006186A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB554A84212DA41A006186A8 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		F687E500930CE1B8588D9BD0 /* Pods-ScanbillSDKExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanbillSDKExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScanbillSDKExampleUITests/Pods-ScanbillSDKExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A1124C1893C62184CCC94A /* Pods_ScanbillSDKExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanbillSDKExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB554A50212DA0D3006186A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F394E4CADA7BC59966115A /* Pods_ScanbillSDKExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A64212DA0D4006186A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE115A7804576536D16B1298 /* Pods_ScanbillSDKExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A6F212DA0D4006186A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60781FB29550C56BA6B0AF /* Pods_ScanbillSDKExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D66B074712E770BE57CF77C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8432D78C4772731BE696C2E /* Pods_ScanbillSDKExample.framework */,
+				1E86DBC5A84B5A3E4CE6E668 /* Pods_ScanbillSDKExampleTests.framework */,
+				F6A1124C1893C62184CCC94A /* Pods_ScanbillSDKExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EB4FB2E75FA1C98F717E2AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828CC11D610EBD23E8B6F98E /* Pods-ScanbillSDKExample.debug.xcconfig */,
+				0F5562536A283A8BEAD38C2E /* Pods-ScanbillSDKExample.release.xcconfig */,
+				99316F1691465591E7F6D9CC /* Pods-ScanbillSDKExampleTests.debug.xcconfig */,
+				A7B494FA77C6A20A8953C4A1 /* Pods-ScanbillSDKExampleTests.release.xcconfig */,
+				F687E500930CE1B8588D9BD0 /* Pods-ScanbillSDKExampleUITests.debug.xcconfig */,
+				273A03377D5973CC53918BA6 /* Pods-ScanbillSDKExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB554A4A212DA0D3006186A8 = {
+			isa = PBXGroup;
+			children = (
+				EB554A55212DA0D3006186A8 /* ScanbillSDKExample */,
+				EB554A6A212DA0D4006186A8 /* ScanbillSDKExampleTests */,
+				EB554A75212DA0D4006186A8 /* ScanbillSDKExampleUITests */,
+				EB554A54212DA0D3006186A8 /* Products */,
+				2EB4FB2E75FA1C98F717E2AE /* Pods */,
+				2D66B074712E770BE57CF77C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB554A54212DA0D3006186A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB554A53212DA0D3006186A8 /* ScanbillSDKExample.app */,
+				EB554A67212DA0D4006186A8 /* ScanbillSDKExampleTests.xctest */,
+				EB554A72212DA0D4006186A8 /* ScanbillSDKExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB554A55212DA0D3006186A8 /* ScanbillSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				EB554A56212DA0D3006186A8 /* AppDelegate.swift */,
+				EB554A58212DA0D3006186A8 /* ViewController.swift */,
+				EB554A84212DA41A006186A8 /* tessdata */,
+				EB554A5A212DA0D3006186A8 /* Main.storyboard */,
+				EB554A5D212DA0D4006186A8 /* Assets.xcassets */,
+				EB554A5F212DA0D4006186A8 /* LaunchScreen.storyboard */,
+				EB554A62212DA0D4006186A8 /* Info.plist */,
+			);
+			path = ScanbillSDKExample;
+			sourceTree = "<group>";
+		};
+		EB554A6A212DA0D4006186A8 /* ScanbillSDKExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB554A6B212DA0D4006186A8 /* ScanbillSDKExampleTests.swift */,
+				EB554A6D212DA0D4006186A8 /* Info.plist */,
+			);
+			path = ScanbillSDKExampleTests;
+			sourceTree = "<group>";
+		};
+		EB554A75212DA0D4006186A8 /* ScanbillSDKExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB554A76212DA0D4006186A8 /* ScanbillSDKExampleUITests.swift */,
+				EB554A78212DA0D4006186A8 /* Info.plist */,
+			);
+			path = ScanbillSDKExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB554A52212DA0D3006186A8 /* ScanbillSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB554A7B212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExample" */;
+			buildPhases = (
+				B064F2AFBF508C71552C18D2 /* [CP] Check Pods Manifest.lock */,
+				EB554A4F212DA0D3006186A8 /* Sources */,
+				EB554A50212DA0D3006186A8 /* Frameworks */,
+				EB554A51212DA0D3006186A8 /* Resources */,
+				006C5CABD470553BC23AA2C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanbillSDKExample;
+			productName = ScanbillSDKExample;
+			productReference = EB554A53212DA0D3006186A8 /* ScanbillSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB554A66212DA0D4006186A8 /* ScanbillSDKExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB554A7E212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExampleTests" */;
+			buildPhases = (
+				F488BBD7E1F021788DD8E70A /* [CP] Check Pods Manifest.lock */,
+				EB554A63212DA0D4006186A8 /* Sources */,
+				EB554A64212DA0D4006186A8 /* Frameworks */,
+				EB554A65212DA0D4006186A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB554A69212DA0D4006186A8 /* PBXTargetDependency */,
+			);
+			name = ScanbillSDKExampleTests;
+			productName = ScanbillSDKExampleTests;
+			productReference = EB554A67212DA0D4006186A8 /* ScanbillSDKExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB554A71212DA0D4006186A8 /* ScanbillSDKExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB554A81212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExampleUITests" */;
+			buildPhases = (
+				6D79F2DBD03115F3ED0A5F14 /* [CP] Check Pods Manifest.lock */,
+				EB554A6E212DA0D4006186A8 /* Sources */,
+				EB554A6F212DA0D4006186A8 /* Frameworks */,
+				EB554A70212DA0D4006186A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB554A74212DA0D4006186A8 /* PBXTargetDependency */,
+			);
+			name = ScanbillSDKExampleUITests;
+			productName = ScanbillSDKExampleUITests;
+			productReference = EB554A72212DA0D4006186A8 /* ScanbillSDKExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB554A4B212DA0D3006186A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ICS \"Endava\" SRL";
+				TargetAttributes = {
+					EB554A52212DA0D3006186A8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EB554A66212DA0D4006186A8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EB554A52212DA0D3006186A8;
+					};
+					EB554A71212DA0D4006186A8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EB554A52212DA0D3006186A8;
+					};
+				};
+			};
+			buildConfigurationList = EB554A4E212DA0D3006186A8 /* Build configuration list for PBXProject "ScanbillSDKExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB554A4A212DA0D3006186A8;
+			productRefGroup = EB554A54212DA0D3006186A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB554A52212DA0D3006186A8 /* ScanbillSDKExample */,
+				EB554A66212DA0D4006186A8 /* ScanbillSDKExampleTests */,
+				EB554A71212DA0D4006186A8 /* ScanbillSDKExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB554A51212DA0D3006186A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB554A61212DA0D4006186A8 /* LaunchScreen.storyboard in Resources */,
+				EB554A86212DA608006186A8 /* tessdata in Resources */,
+				EB554A5E212DA0D4006186A8 /* Assets.xcassets in Resources */,
+				EB554A5C212DA0D3006186A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A65212DA0D4006186A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A70212DA0D4006186A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006C5CABD470553BC23AA2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanbillSDKExample/Pods-ScanbillSDKExample-frameworks.sh",
+				"${PODS_ROOT}/ScanbillSDK/ScanbillSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScanbillSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanbillSDKExample/Pods-ScanbillSDKExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D79F2DBD03115F3ED0A5F14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanbillSDKExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B064F2AFBF508C71552C18D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanbillSDKExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F488BBD7E1F021788DD8E70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanbillSDKExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB554A4F212DA0D3006186A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB554A59212DA0D3006186A8 /* ViewController.swift in Sources */,
+				EB554A57212DA0D3006186A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A63212DA0D4006186A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB554A6C212DA0D4006186A8 /* ScanbillSDKExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB554A6E212DA0D4006186A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB554A77212DA0D4006186A8 /* ScanbillSDKExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB554A69212DA0D4006186A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB554A52212DA0D3006186A8 /* ScanbillSDKExample */;
+			targetProxy = EB554A68212DA0D4006186A8 /* PBXContainerItemProxy */;
+		};
+		EB554A74212DA0D4006186A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB554A52212DA0D3006186A8 /* ScanbillSDKExample */;
+			targetProxy = EB554A73212DA0D4006186A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB554A5A212DA0D3006186A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB554A5B212DA0D3006186A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB554A5F212DA0D4006186A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB554A60212DA0D4006186A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB554A79212DA0D4006186A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB554A7A212DA0D4006186A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB554A7C212DA0D4006186A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828CC11D610EBD23E8B6F98E /* Pods-ScanbillSDKExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQVP6Z8X66;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ScanbillSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB554A7D212DA0D4006186A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5562536A283A8BEAD38C2E /* Pods-ScanbillSDKExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQVP6Z8X66;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ScanbillSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB554A7F212DA0D4006186A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99316F1691465591E7F6D9CC /* Pods-ScanbillSDKExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScanbillSDKExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanbillSDKExample.app/ScanbillSDKExample";
+			};
+			name = Debug;
+		};
+		EB554A80212DA0D4006186A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B494FA77C6A20A8953C4A1 /* Pods-ScanbillSDKExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScanbillSDKExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanbillSDKExample.app/ScanbillSDKExample";
+			};
+			name = Release;
+		};
+		EB554A82212DA0D4006186A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F687E500930CE1B8588D9BD0 /* Pods-ScanbillSDKExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScanbillSDKExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanbillSDKExample;
+			};
+			name = Debug;
+		};
+		EB554A83212DA0D4006186A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273A03377D5973CC53918BA6 /* Pods-ScanbillSDKExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScanbillSDKExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanbillSDKExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScanbillSDKExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB554A4E212DA0D3006186A8 /* Build configuration list for PBXProject "ScanbillSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB554A79212DA0D4006186A8 /* Debug */,
+				EB554A7A212DA0D4006186A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB554A7B212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB554A7C212DA0D4006186A8 /* Debug */,
+				EB554A7D212DA0D4006186A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB554A7E212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB554A7F212DA0D4006186A8 /* Debug */,
+				EB554A80212DA0D4006186A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB554A81212DA0D4006186A8 /* Build configuration list for PBXNativeTarget "ScanbillSDKExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB554A82212DA0D4006186A8 /* Debug */,
+				EB554A83212DA0D4006186A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB554A4B212DA0D3006186A8 /* Project object */;
+}

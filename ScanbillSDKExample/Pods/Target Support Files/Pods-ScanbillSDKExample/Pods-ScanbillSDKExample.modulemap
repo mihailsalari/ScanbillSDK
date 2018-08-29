@@ -1,0 +1,6 @@
+framework module Pods_ScanbillSDKExample {
+  umbrella header "Pods-ScanbillSDKExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

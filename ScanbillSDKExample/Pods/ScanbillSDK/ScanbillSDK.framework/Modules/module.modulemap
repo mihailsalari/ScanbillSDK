@@ -1,0 +1,11 @@
+framework module ScanbillSDK {
+  umbrella header "ScanbillSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ScanbillSDK.Swift {
+    header "ScanbillSDK-Swift.h"
+    requires objc
+}
