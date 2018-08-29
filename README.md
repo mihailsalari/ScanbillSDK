@@ -62,5 +62,5 @@ Don't forget to import the "import ScanbillSDK" at the class you are working
 
 # ScanbillSDK
 
-![alt text](https://github.com/mihailsalari/ScanbillSDK/blob/master/images/0.png)
-![alt text](https://github.com/mihailsalari/ScanbillSDK/blob/master/images/1.png)
+![alt text](https://raw.githubusercontent.com/mihailsalari/ScanbillSDK/master/images/0.png)
+![alt text](https://raw.githubusercontent.com/mihailsalari/ScanbillSDK/master/images/1.png)
